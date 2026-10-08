@@ -1,0 +1,10 @@
+program SIM
+  LABEL 1
+  PRCOM 0 ENC[1] " "
+  PRCOM 0 ENC[2] " "
+  PRCOM 0 ENC[3] " "
+  PRCOM 0 ENC[4] " "
+  PRCOM 0 ENC[5] " "
+  PRLNCOM 0 OUT[1]
+  DELAY 5
+  GOTO 1

@@ -1,0 +1,25 @@
+# macOS / Windows junk
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Local backups, not published
+_original/
+TITLE.pdf
+
+# Full-resolution videos are too big for GitHub (>100 MB); the 720p copies are committed
+video/clip.mp4
+video/out.mp4
+
+# Manufacturer manuals (copyrighted, see docs/README.md)
+docs/*.pdf
+
+# Runtime output of listen.py
+positions.txt
+__pycache__/
+
+# SolidWorks lock/temp files
+~$*
+
+# Experiment figures (kept locally, not published)
+Screenshots/
